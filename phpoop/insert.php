@@ -9,13 +9,14 @@ class insert{
        
         $this->name = $name;
 
-        
+
       $this->last = $last;    
         $con = new mysqli("localhost","root","","test");    
         $sql = "INSERT INTO one(NAME, LAST)VALUES('$this->name','$this->last')"; 
         $con->query($sql); 
     }
     function show()
+    
     {
         return $this->name;
         
