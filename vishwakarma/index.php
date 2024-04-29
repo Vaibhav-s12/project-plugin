@@ -36,7 +36,7 @@ class admin
         <h2>ADEVERTIESMENT WORK</h2>
     <div id = "me">
         <?php
-        $dummy = new admin();
+        $dummy = new admin(); 
         $dummy->set();
         foreach($dummy as $val)
         {
