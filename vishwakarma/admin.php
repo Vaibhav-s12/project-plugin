@@ -26,6 +26,8 @@ $dummy->set($_FILES['img']['name']);
 unset($dummy);
 
 
+
+
 }
 ?>
 <!DOCTYPE html>
