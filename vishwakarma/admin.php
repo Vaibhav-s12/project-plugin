@@ -6,6 +6,7 @@ class admin
    function set($img)
    {
        
+    
         $temp = $_FILES['img']['tmp_name'];
         $folder = "image\ " . $img;    
        $con = new mysqli("localhost", "root", "", "vishwa") or die("connection error");
