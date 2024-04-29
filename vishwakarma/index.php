@@ -12,7 +12,7 @@ class admin
           while($row=$result->fetch_assoc())
           {
               $data[] = $row;
-              
+               
           }
       }return  $data; 
        
