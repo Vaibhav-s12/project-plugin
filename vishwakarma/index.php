@@ -66,5 +66,5 @@ class admin
         <h2>ABOUT US</h2>
     </div>
     <div id = "me"></div>
-</body>
+</body>                
 </html> 
