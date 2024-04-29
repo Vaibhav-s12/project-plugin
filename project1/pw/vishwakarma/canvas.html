@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style type="text/css">
+    #main{
+        z-index: -1;
+    }
+    #one{
+        z-index: 1;
+    }
+    #two{
+        z-index: 1;
+    }
+    rect{
+        animation: infinite 2s 3s;
+        animation-name: vaibhav;
+    }
+    @keyframes vaibhav{
+        10%{fill: black;}
+        50%{fill: blueviolet;}
+        100%{fill: coral;}
+    
+    }
+    #main{
+        animation: infinite 2s 3s;
+        animation-name: vaibhav1;
+    }
+    @keyframes vaibhav1{
+        10%{stroke: coral;}
+        75%{fill: lightblue;}
+    
+    }
+    #two{
+        animation: infinite 2s 3s;
+        animation-name: vaibhav2;
+    }
+    @keyframes vaibhav2{
+        100%{stroke: darkblue;}
+        100%{fill: gold;}
+    
+    }
+    #three{
+        animation: infinite 2s 0s;
+        animation-name: vaibhav3;
+    }
+    @keyframes vaibhav3{
+        10%{fill: red;}
+        20%{fill: darkblue;}
+        30%{fill: darkcyan;}
+        40%{fill: floralwhite;}
+        50%{fill: dimgray;}
+        60%{fill: rosybrown;}
+        70%{fill: limegreen}
+        80%{fill: lime}
+        90%{fill: white}
+        100%{fill: gold;}
+    
+    }
+
+    </style>
+    <canvas id="canvas">my error</canvas>
+
+    
+     <svg width="auto" height="400px">
+        <circle id="main" cx="150" cy="140" r="90" stroke="lime" stroke-width="4" fill="white"></circle>
+         <circle id="two" cx="100" cy="100" r="10" fill="red"></circle>
+        <circle id="two" cx="200" cy="100" r="10" fill="red"></circle>
+        <circle id="three" cx="150" cy="140" r="35" fill="red"></circle>
+        <rect id="one" width="60" height="20" x="120" y="190" fill="red" ></rect>
+        <rect id="one" width="10" height="20" x="120" y="190" fill="yellow" ></rect>
+        <rect id="one" width="10" height="20" x="130" y="190" fill="lime" ></rect>
+        <rect id="one" width="10" height="20" x="140" y="190" fill="blue" ></rect>
+        <rect id="one" width="10" height="20" x="150" y="190" fill="black" ></rect>
+        <rect id="one" width="10" height="20" x="160" y="190" fill="lightblue" ></rect>
+        <rect id="one" width="10" height="20" x="170" y="190" fill="lemon" ></rect>
+        </svg>   
+</body>
+</html>

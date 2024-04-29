@@ -1,0 +1,22 @@
+body
+{
+    background-color: blue;
+}
+#head
+{
+    background-color: skyblue;
+    padding: 2%;
+    margin: 2%;
+}
+#body
+{   
+    padding: 0.5%;
+    margin-top: 0.5%;
+    background-color: lime;
+    display: absolute;
+}
+#me
+{
+    background-color: gray;
+    display: relative;
+}

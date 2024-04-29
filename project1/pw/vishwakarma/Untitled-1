@@ -1,0 +1,10 @@
+<form id="form" action="test.php" method="GET" >
+    <label id = "visit" >Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input  type="text" name ="name" placeholder="Enter your name" ></input> <br></br>
+    <label id = "visit" >e-mail:</label>&nbsp;&nbsp;&nbsp;
+    <input  type ="email" name ="email" placeholder="E-mail" ></input> <br><br>
+    <label id = "visit">Number:</label>
+    <input  type ="number" name ="number" placeholder="type your mobile for contact us" ></input>
+    <pre>
+                   <button id="button" type="submit" value="submit" >submit</button></pre>
+</form>

@@ -1,0 +1,7 @@
+<?php
+$server = "Localhost";
+$user = "root";
+$db = "work";
+
+print("<lebel>name</lebel><input type = "text" ></input>");
+?>
