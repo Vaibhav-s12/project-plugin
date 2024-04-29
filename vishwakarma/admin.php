@@ -15,8 +15,9 @@ class admin
        $con->query($sql); 
        move_uploaded_file($temp, $folder) or die("upload error");  
    }
-   
+
 }
+
 $dummy = new admin;
 
 
