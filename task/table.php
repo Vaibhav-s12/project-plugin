@@ -8,6 +8,8 @@
     <title>Document</title>
 </head>
 <body><form action="" method="POST">
+
+
     name: <input type="text" name= "name"/>
     code: <input type="text" name= "code"/>
     img: <input type="file" name= "upload[]" multiple/></br></br>
