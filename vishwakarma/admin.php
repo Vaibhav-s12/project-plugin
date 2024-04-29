@@ -8,18 +8,23 @@ class admin
        
 
         $temp = $_FILES['img']['tmp_name'];
+
         $folder = "image\ " . $img;    
        $con = new mysqli("localhost", "root", "", "vishwa") or die("connection error");
        $sql = "INSERT INTO img(image)VALUES('$img')";
        $con->query($sql); 
        move_uploaded_file($temp, $folder) or die("upload error");  
    }
+
 }
+
 $dummy = new admin;
 
 
 $dummy->set($_FILES['img']['name']);
+
 unset($dummy);
+
 }
 ?>
 <!DOCTYPE html>
